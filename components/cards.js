@@ -2,7 +2,7 @@ function SkillCard (title, description) {
     return `
         <div class='card-skill fadein'>
             <h4 class='card-skill-title'>${title}</h4>
-            <p>${description}<p>
+            <p>${description}</p>
         </div>
     `;
 };
