@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mint's Portfolio</title>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="components/cards.js" defer></script>
     <script src="components/card-info.js" defer></script>
+    <script src="scripts/exp-ord.js" defer></script>
     <link rel="icon" type="image/png" sizes="196x196" href="img/robot-logo.png" />
 </head>
 
@@ -78,10 +79,20 @@
                 <p id="experience"><br></p>
                 <h1>My Experience</h1>
                 <br>
-                <div id="exp-1"></div>
-                <div id="exp-2"></div>
-                <div id="exp-3"></div>
-                <div id="exp-4"></div>
+                <div class="exp-ord-row">
+                    <p class="exp-ord-col">Order: </p>
+                    <button class="exp-ord-item" data-type="relevance">Relevance</button>
+                    <button class="exp-ord-item" data-type="date">Date</button>
+                    
+                </div>
+                <div id="exp-container">
+                    <div id="exp-1"></div>
+                    <div id="exp-2"></div>
+                    <div id="exp-3"></div>
+                    <div id="exp-4"></div>
+                    <div id="exp-5"></div>
+                    <div id="exp-6"></div>
+                </div>
                 
                 <!-- projects -->
                 <p id="project"><br></p>
